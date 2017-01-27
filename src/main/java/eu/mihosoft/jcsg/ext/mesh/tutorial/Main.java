@@ -24,6 +24,7 @@ import java.util.logging.Logger;
 public class Main {
 
     public static void main(String[] args) {
+        
         // we use cube and sphere as base geometries
         CSG cube = new Cube(2).toCSG();
         CSG sphere = new Sphere(1.25).toCSG();
@@ -45,8 +46,8 @@ public class Main {
         );
 
         try {
-            // save optimized mesh as "all.stl"
-            Files.write(Paths.get("all.stl"), all.toStlString().getBytes());
+            // save optimized mesh as "optimized.stl"
+            Files.write(Paths.get("optimized.stl"), all.toStlString().getBytes());
         } catch (IOException ex) {
             Logger.getLogger(Main.class.getName()).
                     log(Level.SEVERE, null, ex);
