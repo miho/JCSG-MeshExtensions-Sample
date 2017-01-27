@@ -1,6 +1,6 @@
 # JCSG-MeshExtensions-Sample
 
-Demonstrates the [JCSG-MeshExtensions](https://github.com/miho/JCSG-MeshExtensions-Sample) library, a [JCSG](https://github.com/miho/JCSG) extension library for producing high-quality meshes from [JCSG](https://github.com/miho/JCSG) mesh objects. The mesh optimization is performed with the cross-platform meshing software [ProMesh](http://promesh3d.com/) which is available as [ug4](https://github.com/UG4/ugcore) plugin.
+Demonstrates the [JCSG-MeshExtensions](https://github.com/miho/JCSG-MeshExtensions) library, a [JCSG](https://github.com/miho/JCSG) extension library for producing high-quality meshes from [JCSG](https://github.com/miho/JCSG) mesh objects. The mesh optimization is performed with the cross-platform meshing software [ProMesh](http://promesh3d.com/) which is available as [ug4](https://github.com/UG4/ugcore) plugin.
 
 <img src="https://raw.githubusercontent.com/miho/JCSG-MeshExtensions/master/res/img/optimize.jpg" alt="optimization" width="450">
 
