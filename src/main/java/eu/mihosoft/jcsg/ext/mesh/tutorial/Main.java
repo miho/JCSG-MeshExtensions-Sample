@@ -68,7 +68,7 @@ public class Main {
         );
 
         try {
-            // save optimized mesh as "all.stl"
+            // save combined unoptimized and optimized mesh as "all.stl"
             Files.write(Paths.get("all.stl"), all.toStlString().getBytes());
         } catch (IOException ex) {
             Logger.getLogger(Main.class.getName()).
