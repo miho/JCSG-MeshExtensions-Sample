@@ -26,8 +26,8 @@ CSG all = MeshTools.optimize(
         1.5        // max edge length
 );
 
-// save optimized mesh as "optimized.stl"
-Files.write(Paths.get("optimized.stl"), all.toStlString().getBytes());
+// save combined unoptimized and optimized mesh as "all.stl"
+Files.write(Paths.get("all.stl"), all.toStlString().getBytes());
 ```
 
 ## How to Run JCSG-MeshExtensions-Sample
