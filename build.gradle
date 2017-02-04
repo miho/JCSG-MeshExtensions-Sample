@@ -20,8 +20,8 @@ dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.10'
 
     // mesh extensions
-    compile group: 'eu.mihosoft.jcsg.ext.mesh', name: 'jcsg-meshextensions', version: '0.1'
-    compile group: 'eu.mihosoft.jcsg.ext.mesh', name: 'jcsg-meshextensions', version: '0.1', classifier: 'sources'
+    compile group: 'eu.mihosoft.jcsg.ext.mesh', name: 'jcsg-meshextensions', version: '0.2'
+    compile group: 'eu.mihosoft.jcsg.ext.mesh', name: 'jcsg-meshextensions', version: '0.2', classifier: 'sources'
 
     
     

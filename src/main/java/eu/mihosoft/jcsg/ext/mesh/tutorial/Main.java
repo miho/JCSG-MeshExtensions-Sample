@@ -27,11 +27,11 @@
  */
 package eu.mihosoft.jcsg.ext.mesh.tutorial;
 
+import eu.mihosoft.jcsg.CSG;
+import eu.mihosoft.jcsg.Cube;
+import eu.mihosoft.jcsg.Sphere;
 import eu.mihosoft.jcsg.ext.mesh.MeshTools;
-import eu.mihosoft.vrl.v3d.CSG;
-import eu.mihosoft.vrl.v3d.Cube;
-import eu.mihosoft.vrl.v3d.Sphere;
-import eu.mihosoft.vrl.v3d.Transform;
+import eu.mihosoft.vvecmath.Transform;
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
