@@ -8,7 +8,7 @@ if (!hasProperty('mainClass')) {
 }
 
 task wrapper(type: Wrapper, description: 'Creates and deploys the Gradle wrapper to the current directory.') {
-    gradleVersion = '3.3'
+    gradleVersion = '4.8'
 }
 
 repositories {
